@@ -1,5 +1,6 @@
 ---
 applications:
 - name: hello-app
+  buildpack: go_buildpack
   memory: 64M
   instances: 1
